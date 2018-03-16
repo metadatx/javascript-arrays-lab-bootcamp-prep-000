@@ -8,6 +8,10 @@ function destructivelyPrependKitten(elm){
   window.kittens.unshift(elm)
 }
 
-function destructivelyRemoveLastKitten(elm){
+function destructivelyRemoveLastKitten(){
   window.kittens.pop()
+}
+
+function destructivelyRemoveFirstKitten(){
+   window.kittens.shift()
 }
