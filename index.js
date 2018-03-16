@@ -5,5 +5,5 @@ function destructivelyAppendKitten(elm){
 }
 
 function destructivelyPrependKitten(elm){
-  window.kittens.unshift
+  window.kittens.unshift(elm)
 }
