@@ -7,3 +7,7 @@ function destructivelyAppendKitten(elm){
 function destructivelyPrependKitten(elm){
   window.kittens.unshift(elm)
 }
+
+function destructivelyRemoveLastKitten(elm){
+  window.kittens.pop()
+}
