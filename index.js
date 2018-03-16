@@ -23,3 +23,8 @@ function appendKitten(elm) {
 function prependKitten(elm) {
   return [elm, ...window.kittens]
 }
+
+function removeLastKitten() {
+  var arr2 = [...window.kittens]
+  
+}
