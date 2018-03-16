@@ -26,5 +26,6 @@ function prependKitten(elm) {
 
 function removeLastKitten() {
   var arr2 = [...window.kittens]
-  
+  arr2.pop()
+  return arr2
 }
