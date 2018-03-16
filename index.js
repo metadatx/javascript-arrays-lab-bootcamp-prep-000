@@ -29,3 +29,9 @@ function removeLastKitten() {
   arr2.pop()
   return arr2
 }
+
+function removeFirstKitten(){
+  var arr2 = [...window.kittens]
+  arr2.shift()
+  return arr2
+}
