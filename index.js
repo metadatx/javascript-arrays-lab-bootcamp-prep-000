@@ -15,3 +15,7 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
    window.kittens.shift()
 }
+
+function appendKitten(elm) {
+  return [...window.kittens, elm]
+}
